@@ -37,6 +37,7 @@ header {
     text-decoration: none;
     text-transform: uppercase;
     margin-right: 25px;
+    color: #FFFFFF;
 }
 .navigation nav .active {
     color: red !important;
