@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+.container {
+    padding: 10px;
+    width: 1024px;
+    margin: 0 auto;
+}
+header {
+    
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-left: 40px;
+    padding-right: 28px;
+    padding-bottom: 35px;
+    color: #FFFFFF;
+    background-color: #272C38;
+}
+.logo {
+    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
+}
+.logo sup {
+    color: red;
+}
+.navigation {
+    margin-top: 19px;
+}
+.navigation nav a {
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 25px;
+}
+.navigation nav .active {
+    color: red !important;
+}
+.navigation nav a:visited {
+    color: inherit;
+}
+.navigation nav a:hover {
+    text-decoration: underline;
+    color: violet;
+}
+
+.black-gray-block {
+    width: 100%;
+    height: 6px;
+    background-color: #2C3445;
+}
+.slider {
+    position: relative;
+    padding: 52px 90px 67px 110px;
+    background-color: #FF6C64;
+}
+
+
+.vertical {
+    margin-right: 74px;
+}
+.horizont {
+    padding-bottom: 125px;
+}
+.left-arr {
+    position: absolute;
+    top: 45%;
+    left: 45px;
+    width: 30px;
+    height: 28px;
+    background: url(assets/left.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.left-arr:hover {
+    opacity: 0.6;
+}
+.right-arr {
+    position: absolute;
+    top: 45%;
+    right: 45px;
+    width: 30px;
+    height: 28px;
+    background: url(assets/right.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.right-arr:hover {
+    opacity: 0.6;
+}
+.title-block {
+    background: #F2F2F2;
+    padding: 65px 40px 0 40px;
+}
+.title-block h1 {
+    font-family: lato Black;
+    font-size: 30px;
+    font-weight: bold;
+    color: #636D8B
+}
+
+.title-block p {
+    margin-top: 35px;
+    font-size: 18px;
+    color: #7883A3;
+}
+.icons-text {
+    padding-top: 54px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 32px;
+    display: flex;
+    background: #F2F2F2;
+}
+.block {
+    margin-right: 20px;
+}
+.block:last-of-type {
+    margin-right: 0;
+}
+.inside-block {
+    display: flex;
+    margin-bottom: 38px;
+}
+
+.back-icon {
+    position: relative;
+    background: url(assets/background.png);
+    background-repeat: no-repeat;
+    width: 59px;
+    height: 59px;
+}
+.icon {
+    position: relative;
+    margin-right: 20px;
+}
+.icon .second {
+    position: absolute;
+    top: 20%;
+    left: 23%;
+}
+.text h3 {
+    margin-bottom: 12px;
+    color: #636D8B;
+    font-family: 'Lato Black';
+    font-weight: bold ;
+}
+.text p {
+    font-family: 'Lato Regular';
+    color: #9AA1B9;
+}
+.icon .second-phone {
+    position: absolute;
+    top: 10%;
+    left: 31%;
+}
+
+.icon .second-buble {
+    position: absolute;
+    top: 13%;
+    left: 25%;
+}
+.icon .second-heart {
+    position: absolute;
+    top: 14%;
+    left: 23%;
+}
+.icon .second-star {
+    position: absolute;
+    top: 10%;
+    left: 23%;
+}
